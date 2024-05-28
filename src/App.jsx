@@ -6,6 +6,7 @@ import WhyUs from "./components/WhyUs";
 import Testimonial from "./components/Testimonial";
 import Rental from "./components/Rental";
 import Faq from "./components/Faq";
+import Footer from "./components/Footer";
 function App() {
   return (
     <div>
@@ -16,6 +17,7 @@ function App() {
       <Testimonial />
       <Rental />
       <Faq />
+      <Footer />
     </div>
   );
 }
