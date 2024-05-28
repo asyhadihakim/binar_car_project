@@ -41,10 +41,9 @@ body {
 
 .banner-container {
   background: #f1f3ff;
-  padding: 2px;
 }
 
-.banner {
+.banner-wrapper {
   margin: 0 auto;
   max-width: 1000px;
   display: flex;
@@ -52,30 +51,41 @@ body {
   gap: 10px;
 }
 
-.banner h2 {
+.banner-left {
+  display: flex;
+  flex-direction: column;
+  width: 540px;
+  gap: 10px;
+}
+
+.banner-left h2 {
   font-size: 24px;
   font-weight: 600;
   color: black;
   padding-bottom: 20px;
 }
 
-.banner p {
+.banner-left p {
   font-size: 16px;
   color: black;
   padding-bottom: 20px;
 }
 
-.banner-left {
-  width: 540px;
-  height: 440px;
+.banner-btn {
+  padding: 8px 12px 8px 12px;
+  color: white;
+  background-color: #5cb85f;
+  font-size: 14px;
+  font-weight: 700;
+  border: none;
+  width: 120px;
+  line-height: 20px;
+  gap: 10px;
 }
 
 .banner-left button {
-  display: block;
   padding: 8px 12px 8px 12px;
   color: white;
-  top: 50px;
-  left: 1px;
   background-color: #5cb85f;
   font-size: 12px;
   font-weight: 400;
@@ -84,7 +94,6 @@ body {
 
 .banner-right {
   width: 540px;
-  height: 440px;
 }
 
 .service-car-container {
@@ -302,4 +311,45 @@ body {
 .faq-wrapper {
   margin: 0 auto;
   max-width: 1000px;
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.faq-right {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.faq-right-items {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  border: #919191 1px solid;
+  background-color: #ffffff;
+  border-radius: 5px;
+}
+
+.footer-container {
+  background: white;
+}
+
+.footer-wrapper {
+  margin: 0 auto;
+  max-width: 1000px;
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.footer-contact {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.footer-contact p {
+  font-size: 14px;
+  font-weight: 500;
 }
