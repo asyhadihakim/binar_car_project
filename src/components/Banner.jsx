@@ -6,7 +6,7 @@ const Banner = () => {
     <div className="banner-container">
       <div className="banner-wrapper">
         <div className="banner-left">
-          <h2>Sewa & Rental Mobil Terbaik di kawasan (Lokasimu)</h2>
+          <h2>Sewa & Rental Mobil czxczxc Terbaik di kawasan (Lokasimu)</h2>
           <p>
             Selamat datang di Binar Car Rental. Kami menyediakan mobil kualitas
             terbaik dengan harga terjangkau. Selalu siap melayani kebutuhanmu
