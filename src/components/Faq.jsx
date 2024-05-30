@@ -4,7 +4,7 @@ const Faq = () => {
     <div className="faq-container">
       <div className="faq-wrapper">
         <div className="faq-left">
-          <h2>Frequently Asked Question</h2>
+          <h2>Frequently Asked Questions</h2>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
         </div>
         <div className="faq-right">

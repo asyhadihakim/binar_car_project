@@ -7,7 +7,7 @@ const Cari = () => {
   return (
     <div>
       <Navbar />
-      <Banner />
+      <Banner title="ini banner 1" showBtn={false}/>
       <Find />
       <Footer />
     </div>

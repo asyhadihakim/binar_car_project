@@ -392,6 +392,7 @@ body {
 
 .find-container {
   background: white;
+  padding: 40px 0px 40px 0px;
 }
 
 .find-wrapper {
@@ -403,6 +404,26 @@ body {
   background-color: hsl(0, 0%, 100%);
   border-radius: 5px;
   gap: 10px;
-  box-shadow: 10px 10px 10px 10px grey;
-  margin-bottom: 10px;
+  box-shadow: 5px 5px 5px 5px grey;
+}
+
+.find-wrapper input{
+  padding: 10px;
+  width: 150px;
+  border-radius: 5px;
+  border: 2.5px solid #f7f7f7;
+}
+
+.btn-search button{
+  padding: 8px 12px 8px 12px;
+  color: white;
+  background-color: #5cb85f;
+  font-size: 12px;
+  font-weight: 400;
+  border: none;
+  line-height: 20px;
+}
+
+.car-name{
+
 }
