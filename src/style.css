@@ -316,6 +316,17 @@ body {
   gap: 10px;
 }
 
+.faq-left {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.faq-left h2 {
+  font-size: 24px;
+  font-weight: 600;
+}
+
 .faq-right {
   display: flex;
   flex-direction: column;
@@ -329,27 +340,69 @@ body {
   border: #919191 1px solid;
   background-color: #ffffff;
   border-radius: 5px;
+  width: 450px;
 }
 
 .footer-container {
   background: white;
+  padding: 30px;
 }
 
 .footer-wrapper {
   margin: 0 auto;
   max-width: 1000px;
+  padding: 30px;
   display: flex;
   justify-content: space-between;
   gap: 10px;
+  font-weight: 600;
 }
 
 .footer-contact {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 20px;
 }
 
 .footer-contact p {
   font-size: 14px;
-  font-weight: 500;
+  font-weight: 600;
+}
+
+.footer-menus {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  font-weight: 100;
+}
+
+.footer-media {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  font-weight: 600;
+}
+
+.footer-logo {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  font-weight: 600;
+}
+
+.find-container {
+  background: white;
+}
+
+.find-wrapper {
+  margin: 0 auto;
+  max-width: 1000px;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 5px;
+  gap: 10px;
+  box-shadow: 10px 10px 10px 10px grey;
+  margin-bottom: 10px;
 }

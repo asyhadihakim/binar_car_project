@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import Logo from "./Logo";
 import { links } from "../utils/dummy";
 
@@ -8,7 +9,7 @@ const Navbar = () => {
         <Logo />
         <div className="navbar-links">
           {links.map((menu) => (
-            <a href="/">{menu}</a>
+            <Link to={menu.url}>{menu.title}</Link>
           ))}
         </div>
       </div>

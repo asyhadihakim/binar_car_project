@@ -1,6 +1,5 @@
 import ImageBanner from "../assets/img_car.png";
 
-console.log(ImageBanner);
 const Banner = () => {
   return (
     <div className="banner-container">

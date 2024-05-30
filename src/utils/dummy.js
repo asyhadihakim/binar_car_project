@@ -1,4 +1,25 @@
-export const links = ["Our Service", "Why Us", "Testimonial", "FAQ"];
+export const links = [
+  {
+    id: 1,
+    title: "Our Service",
+    url: "/service",
+  },
+  {
+    id: 2,
+    title: "Why Us",
+    url: "/whyus",
+  },
+  {
+    id: 3,
+    title: "Testimonial",
+    url: "/testimonial",
+  },
+  {
+    id: 4,
+    title: "Faq",
+    url: "/faq",
+  },
+];
 
 export const whyUsData = [
   {
