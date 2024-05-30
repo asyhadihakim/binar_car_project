@@ -7,7 +7,9 @@ const Find = () => {
         <div className="category"></div>
         <div className="price"></div>
         <div className="car-status"></div>
-        <div className="btn-search"></div>
+        <div className="btn-search">
+          <button></button>
+        </div>
       </div>
     </div>
   );
