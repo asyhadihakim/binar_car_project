@@ -11,11 +11,11 @@ const Banner = () => {
             terbaik dengan harga terjangkau. Selalu siap melayani kebutuhanmu
             untuk sewa mobil selama 24 jam.
           </p>
-          <div className="banner-btn">
-            <Link to="/cari">
+          <Link to="/search">
+            <div className="banner-btn">
               <button>Mulai Sewa Mobil</button>
-            </Link>
             </div>
+          </Link>
         </div>
         <div className="banner-right">
           <img src={ImageBanner} alt="banner" />

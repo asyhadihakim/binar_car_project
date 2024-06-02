@@ -1,3 +1,6 @@
+import { useState, useEffect } from "react";
+import { Link } from "react-router-dom";
+
 const Find = () => {
   return (
     <div className="find-container">
@@ -7,7 +10,7 @@ const Find = () => {
           <input type="text" placeholder="Ketik nama/tipe mobil" />
         </div>
         <div className="category">
-        <p>Kategori</p>
+          <p>Kategori</p>
           <input type="text" placeholder="Masukkan kapasitas mobil" />
         </div>
         <div className="price">
@@ -19,7 +22,9 @@ const Find = () => {
           <input type="text" />
         </div>
         <div className="btn-search">
-          <button>Cari Mobil</button>
+          <Link to="/result">
+            <button>Cari Mobil</button>
+          </Link>
         </div>
       </div>
     </div>

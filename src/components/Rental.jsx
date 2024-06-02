@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 const Rental = () => {
   return (
     <div className="rental-container">
@@ -8,9 +9,11 @@ const Rental = () => {
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua.
           </p>
-          <div className="rental-box-btn">
-            <button>Mulai Sewa Mobil</button>
-          </div>
+          <Link to="/search">
+            <div className="rental-box-btn">
+              <button>Mulai Sewa Mobil</button>
+            </div>
+          </Link>
         </div>
       </div>
     </div>

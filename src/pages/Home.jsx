@@ -6,6 +6,7 @@ import ServiceCar from "../components/Services";
 import WhyUs from "../components/WhyUs";
 import Testimonial from "../components/Testimonial";
 import Footer from "../components/Footer";
+import TestiSlick from "../components/TestiSlick";
 
 const Home = () => {
   return (
@@ -15,6 +16,7 @@ const Home = () => {
       <ServiceCar />
       <WhyUs />
       <Testimonial />
+      {/* <TestiSlick /> */}
       <Rental />
       <Faq />
       <Footer />
